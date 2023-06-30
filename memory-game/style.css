@@ -1,0 +1,27 @@
+* {
+  font-family: 'Belanosima', sans-serif;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.clicked {
+  font-size: 2px;
+}
+
+.start {
+  float: right;
+  width: 7rem;
+  height: 2rem;
+  border-radius: 6px;
+  border: 1px solid transparent;
+  margin: 1rem;
+  background-image: linear-gradient(to right, #7474BF 0%, #348AC7 51%, #7474BF 100%);
+  cursor: pointer;
+  display: none;
+}
